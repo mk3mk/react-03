@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Header from "./Header";
 
 import "./App.css";
 import { useState, useEffect } from "react";
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <div className="App">
+      <Header />
       <Container>
         {/* Stack the columns on mobile by making one full-width and the other half-width */}
 

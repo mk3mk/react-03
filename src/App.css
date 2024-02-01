@@ -1,14 +1,14 @@
 .App {
   text-align: center;
 }
-<<<<<<< HEAD
-=======
+
 .row{
   border:1px solid #999;
   margin: 10px 0px;
-  background: #ffebeb;
+  background: #f5ebeb;
+  border-radius: 10px;
 }
 .col{
   border:1px solid #e3e3e3;
 }
->>>>>>> e4ee62da3b43de96aecd8bec65a0b408b81bb64b
+
