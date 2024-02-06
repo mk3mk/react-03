@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Header from "./Header";
+import Axios from "./Axios";
 
 import "./App.css";
 import { useState, useEffect } from "react";
@@ -70,7 +71,7 @@ function App() {
             xs=6
           </Col>
           <Col className="col" xs={6}>
-            xs=6
+            <Axios />
           </Col>
         </Row>
       </Container>
