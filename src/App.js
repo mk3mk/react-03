@@ -3,6 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Header from "./Header";
 import Axios from "./Axios";
+import DAPUsers from "./DAPUsers";
 
 import "./App.css";
 import { useState, useEffect } from "react";
@@ -11,7 +12,7 @@ function App() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch("https://api.dark-site.ru/users/")
+    fetch("https://api.designartproject.ru/users/")
       .then((res) => res.json())
       .then((data) => setUsers(data));
   }, []);
@@ -68,7 +69,7 @@ function App() {
         {/* Columns are always 50% wide, on mobile and desktop */}
         <Row className="row">
           <Col className="col" xs={6}>
-            xs=6
+            <DAPUsers />
           </Col>
           <Col className="col" xs={6}>
             <Axios />
