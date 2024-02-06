@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+</head>
+<body>
+<button id="button">button</button>
+<ul></ul>
+<script>
+const fetch_Users = () => {
+   axios.get("https://reqres.in/api/users")
+      .then((response) => {
+         const users = response.data.data;
+         appendToDOM(users);
+      })
+      .catch((error) => console.error(error));
+};
+
+const appendToDOM = (users) => {
+   const ul = document.querySelector("ul");
+   users.map((user) => {
+      ul.appendChild(create_Li(user));
+   });
+};
+
+const create_Li = (user) => {
+   const li = document.createElement("li");
+   li.textContent = `${user.id}: ${user.first_name} ${user.last_name} ${user.avatar} ${user.email}`;
+   return li;
+};
+
+$("#button").click(function() {
+   fetch_Users();
+});
+</script>
+</body>
+</html>
