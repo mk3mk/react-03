@@ -6,7 +6,7 @@
   border:1px solid #f9f9f8;
   margin: 10px 0px;
   padding: 10px 0px;
-  background: #f5ebeb;
+  background-color: var(--color-secondary);
   border-radius: 10px;
 }
 .col{

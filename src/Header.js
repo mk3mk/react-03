@@ -43,7 +43,7 @@ function App() {
         {/* Columns are always 50% wide, on mobile and desktop */}
         <Row className="row">
           <Col className="col" xs={12}>
-            <Navbar className="color-primary" data-bs-theme="dark">
+            <Navbar className="color-primary text-color-fourth">
               <Container>
                 <Navbar.Brand href="#home">Navbar</Navbar.Brand>
                 <Nav className="me-auto">
