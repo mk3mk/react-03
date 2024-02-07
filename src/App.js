@@ -33,7 +33,7 @@ function App() {
               Edit <code>src/App.js</code> and save to reload.
             </p>
           </Col>
-          <Col className="col" xs={6} md={4}>
+          <Col className="col" xs={12} md={4}>
             <a
               className="App-link"
               href="https://reactjs.org"
@@ -46,11 +46,11 @@ function App() {
         </Row>
 
         {/* Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop */}
-        <Row className="row">
-          <Col className="col" xs={6} md={4}>
+        <Row className="row color-third">
+          <Col className="col" xs={12} md={4}>
             xs=6 md=4
           </Col>
-          <Col className="col" xs={6} md={4}>
+          <Col className="col" xs={12} md={4}>
             <div>
               <h1>Our users</h1>
               {users.map((user) => (
@@ -62,17 +62,17 @@ function App() {
               ))}
             </div>
           </Col>
-          <Col className="col" xs={6} md={4}>
+          <Col className="col" xs={12} md={4}>
             xs=6 md=4
           </Col>
         </Row>
 
         {/* Columns are always 50% wide, on mobile and desktop */}
         <Row className="row">
-          <Col className="col" xs={6}>
+          <Col className="col" xs={12} md={6}>
             <DAPUsers />
           </Col>
-          <Col className="col" xs={6}>
+          <Col className="col" xs={12} md={6}>
             <Axios />
           </Col>
         </Row>

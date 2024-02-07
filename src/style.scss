@@ -1,8 +1,18 @@
 :root {
   --color-primary: #ACCEDE;
+  --color-secondary: #DEEDED;
+  --color-third: #DECADE;
 }
 
 
-.color-green {
+.color-primary {
   background-color: var(--color-primary);
+}
+
+.color-secondary {
+  background-color: var(--color-secondary);
+}
+
+.color-third {
+  background-color: var(--color-third);
 }
