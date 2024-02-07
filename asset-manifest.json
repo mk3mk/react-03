@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/react-03/static/css/main.64768799.css",
-    "main.js": "/react-03/static/js/main.12a50832.js",
+    "main.css": "/react-03/static/css/main.3f1a13f1.css",
+    "main.js": "/react-03/static/js/main.07c948ab.js",
     "static/js/787.d4aba7ab.chunk.js": "/react-03/static/js/787.d4aba7ab.chunk.js",
+    "static/media/sochetanie-sinego-365.png": "/react-03/static/media/sochetanie-sinego-365.78fa5105050c6890639d.png",
+    "static/media/logo.svg": "/react-03/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-03/index.html",
-    "main.64768799.css.map": "/react-03/static/css/main.64768799.css.map",
-    "main.12a50832.js.map": "/react-03/static/js/main.12a50832.js.map",
+    "main.3f1a13f1.css.map": "/react-03/static/css/main.3f1a13f1.css.map",
+    "main.07c948ab.js.map": "/react-03/static/js/main.07c948ab.js.map",
     "787.d4aba7ab.chunk.js.map": "/react-03/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64768799.css",
-    "static/js/main.12a50832.js"
+    "static/css/main.3f1a13f1.css",
+    "static/js/main.07c948ab.js"
   ]
 }
