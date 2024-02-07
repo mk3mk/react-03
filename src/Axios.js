@@ -1,5 +1,6 @@
 import * as React from "react";
 import "./styles.css";
+import "./style.scss";
 
 export default function App() {
   const [users, setUsers] = React.useState([]);
@@ -13,7 +14,7 @@ export default function App() {
   }, []);
   return (
     <div className="App">
-      <h1>Hello ReqRes users!</h1>
+      <h1 className="color-green">Hello ReqRes users!</h1>
       <div className="flex">
         {users.length &&
           users.map((user) => {

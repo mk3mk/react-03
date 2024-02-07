@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import Header from "./Header";
 import Axios from "./Axios";
 import DAPUsers from "./DAPUsers";
+import "./style.scss";
 
 import "./App.css";
 import { useState, useEffect } from "react";
